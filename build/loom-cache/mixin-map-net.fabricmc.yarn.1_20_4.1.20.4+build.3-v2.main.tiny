@@ -1,0 +1,17 @@
+v1	named	intermediary
+FIELD	name/sauerkrautmod/mixin/enchantmentmixin/EnchantmentMixin	Lnet/minecraft/enchantment/EnchantmentTarget;	target	field_9083
+FIELD	name/sauerkrautmod/mixin/InfiniteBucketMixin	Lnet/minecraft/fluid/Fluid;	fluid	field_7905
+FIELD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	Lnet/minecraft/entity/data/TrackedData;	HEALTH	field_6247
+FIELD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	Lnet/minecraft/entity/player/PlayerEntity;	attackingPlayer	field_6258
+METHOD	name/sauerkrautmod/mixin/enchantmentmixin/EnchantmentMixin	(Lnet/minecraft/item/ItemStack;)Z	isAcceptableItem	method_8192
+METHOD	name/sauerkrautmod/mixin/InfiniteBucketMixin	(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/TypedActionResult;	use	method_7836
+METHOD	name/sauerkrautmod/mixin/InfiniteBucketMixin	(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/item/ItemStack;	getEmptiedStack	method_7732
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(F)V	setHealth	method_6033
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;	getStackInHand	method_5998
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	()Z	clearStatusEffects	method_6012
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(Lnet/minecraft/entity/effect/StatusEffectInstance;)Z	addStatusEffect	method_6092
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(Lnet/minecraft/entity/effect/StatusEffectInstance;Lnet/minecraft/entity/Entity;)Z	addStatusEffect	method_37222
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(Lnet/minecraft/entity/damage/DamageSource;F)Z	damage	method_5643
+METHOD	name/sauerkrautmod/mixin/InfiniteUndyingMixin	(Lnet/minecraft/entity/damage/DamageSource;)Z	tryUseTotem	method_6095
+METHOD	name/sauerkrautmod/mixin/LightningImmuneMixin	()Ljava/lang/Iterable;	getArmorItems	method_5661
+METHOD	name/sauerkrautmod/mixin/ShearsItemMixin	(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/block/BlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/LivingEntity;)Z	postMine	method_7879

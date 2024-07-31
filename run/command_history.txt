@@ -1,0 +1,18 @@
+/gamerule keepInventory true
+/kill
+/time set day
+/give @a minecraft:command_block
+/setworldspawn
+/time set day
+/recipe take @a sauerkrautmod:stone_2_to_paving_ball
+/recipe take @a sauerkrautmod:prospector
+/recipe take @a sauerkrautmod:stone_1_from_stone_2
+/recipe take @a minecraft:acacia_boat
+/recipe take @a *
+/weather thunder
+/xp set @a 1000000
+/xp add @a 100000
+/give @a sauerkrautmod:boqi_block
+/time set day
+/gamerule doDaylightCycle false
+/weather clear

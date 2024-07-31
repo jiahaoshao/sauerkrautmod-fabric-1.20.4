@@ -1,0 +1,35 @@
+{
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-06-02 18:47:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-02 18:47:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-06-02 18:47:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-06-02 18:47:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-06-02 18:49:02 +0800",
+      "minecraft:river": "2024-06-02 18:48:56 +0800",
+      "minecraft:plains": "2024-06-02 18:47:26 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3700
+}

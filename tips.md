@@ -1,0 +1,1 @@
+1. VanillaBlockLootTableGenerator 用于战利品、掉落物生成

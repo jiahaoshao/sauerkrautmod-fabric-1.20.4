@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "name/sauerkrautmod/mixin/VillagerEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+      "interactMob": "Lnet/minecraft/class_1646;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "name/sauerkrautmod/mixin/VillagerEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;getStackInHand(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1657;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
+        "interactMob": "Lnet/minecraft/class_1646;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      }
+    }
+  }
+}
